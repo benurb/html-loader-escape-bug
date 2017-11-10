@@ -1,0 +1,17 @@
+{
+  "name": "html-loader-escape-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Benjamin Urban",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf output/ && webpack"
+  },
+  "dependencies": {
+    "extract-loader": "^1.0.1",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.5.1",
+    "webpack": "^3.8.1"
+  }
+}
